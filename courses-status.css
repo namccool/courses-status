@@ -13,6 +13,9 @@ div.courses {
   width: 90%;
   background-color: #0c0;
 }
+div.courses .highlight {
+  background-color: #ff0;
+}
 li {
   padding: 10px;
 }
@@ -20,7 +23,7 @@ button.status {
   padding: 5px;
   display: inline-block;
   border-radius: 10px;
-  border: 1px, solid, #aaa;
+  border: 1px solid #aaa;
   background-color: #aca;
 }
 #filters {
@@ -30,7 +33,7 @@ button.recommended {
   padding: 7px;
   display: inline-block;
   border-radius: 10px;
-  border: 1px, solid, #aaa;
+  border: 1px solid #aaa;
 }
 span {
   font-style: italic;
