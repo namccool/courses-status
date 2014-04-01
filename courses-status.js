@@ -10,12 +10,13 @@ $(document).ready(function(){
 	});
 
 	var filters = $("#filters");
-	var goodCourse = $(".course").filter(".recommended");
+	var course = $(".course");
 
 	function recommendCourses() {
-		console.log("WORKING!");
-		goodCourse.toggleClass("highlight");
+		$(".course.recommended").toggleClass("highlight");
 	}
 
-	filters.find(".recommended").click(recommendCourses);
+	filters
+		.find(".recommended")
+		.click(recommendCourses);
 });
