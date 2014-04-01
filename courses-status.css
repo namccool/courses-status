@@ -1,42 +1,65 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #fff;
+}
 body {
-  padding: 50px;
-  font-family: Times New Roman;
+  padding: 0.4em;
+  font-family: serif;
   width: 75%;
-  color: #000;
 }
 h1 {
   text-align: center;
-  font-size: 14pt;
+  font-size: 2em;
+  color: #200772;
 }
 div.courses {
-  padding: 25px;
+  padding: 1.5em;
   width: 90%;
-  background-color: #0c0;
+  background-color: #200772;
 }
 div.courses .highlight {
-  background-color: #ff0;
+  background-color: #876ed7;
 }
-li {
+ol,
+list-style-type none {
+  list-style-position: relative;
+  left: -20px;
+}
+ol li {
   padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  margin: 3px;
+  padding: 0.4em;
+  font-size: 1em;
+  height: 16px;
 }
 button.status {
   padding: 5px;
   display: inline-block;
   border-radius: 10px;
   border: 1px solid #aaa;
-  background-color: #aca;
+  background-color: #200772;
+  color: #fff;
 }
 #filters {
   text-align: center;
 }
 button.recommended {
-  padding: 7px;
+  padding: 0.4em;
   display: inline-block;
   border-radius: 10px;
   border: 1px solid #aaa;
+  margin: 3px;
 }
 span {
+  padding: 5px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px;
   font-style: italic;
-  font-size: 12pt;
-  color: #ff0;
+  font-size: 1em;
+  color: #6a48d7;
 }
